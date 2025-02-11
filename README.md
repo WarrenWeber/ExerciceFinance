@@ -2,8 +2,9 @@
 
 => Payoff Call :
 
-Le Payoff d’un call est défini comme suivant :
-Payoff = max( 0, St - k ), avec St le prix du sous-jacent à l’échéance et k le prix d’exercice
+Le Payoff d’un call est défini comme suivant : Payoff = max( 0, St - k )
+, avec St le prix du sous-jacent à l’échéance et k le prix d’exercice
+
 Pour St <= k, Payoff = 0 ; sinon Payoff = x – k.
 
 Exemple : Pour k = 5 :
